@@ -2,7 +2,7 @@
 
 import sys
 import time
-from pymodbus.client.sync import ModbusTcpClient as ModbusClient
+from pymodbus.client import ModbusTcpClient as ModbusClient
 from pymodbus.exceptions import ConnectionException
 
 # This is the ip of the remote machine running modbus, you pass this to the tool at runtime
