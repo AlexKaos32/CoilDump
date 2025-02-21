@@ -15,7 +15,7 @@ client = ModbusClient(ip, port=502)
 client.connect()
 # while statement is going to run until stopped with ctrl+c or an error is reached
 while True:
-    request = client.read_input_registers(1, 16)
+    request = client.read_input_registers(address=1, count=16)
     if request.isError():
            print('Modbus Error:', request)
     else:
