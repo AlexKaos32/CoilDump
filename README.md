@@ -1,5 +1,5 @@
-# CoilDump
-CoilDump is a tool to sniff registry values over Modbus/TCP Coil on port 502
+# ModDump
+ModDump is a tool to sniff over Modbus/TCP Coil on port 502
 
 Dependencies - python3, pymodbus
 
